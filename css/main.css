@@ -67,3 +67,58 @@ div {
   overflow: hidden;
   transition: all 200ms linear;
 }
+
+.js-panel-collapse {
+  max-height: 10em;
+}
+
+.panel h2 {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.circle {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.js-ball-bounce{
+  -webkit-animation: ball-bounce 1s linear;
+  animation: ball-bounce 1s linear;
+}
+
+@keyframes ball-bounce {
+
+    0% {
+      top:calc(50% - 70px);
+      top: 2em;
+    }
+    
+    25% {
+      top:calc(50% - 60px);
+      right: 4em;
+    }
+    
+    50% {
+      top:calc(50% - 40px);
+      right: 6em;
+    }
+
+    75% {
+      top:calc(50% - 60px);
+      right: 8em;
+    }
+  
+    90% {
+      top:calc(50% - 30px);
+      right: 10em;
+    }
+
+    100% {
+      top:calc(50% - 50px);
+      right: 9em;
+    }
+}
