@@ -39,3 +39,31 @@ div {
 .js-box-show {
   opacity: 1;
 }
+
+.diamond {
+  height: 80px;
+  width: 80px;
+  right: -100px;
+  top: calc(50% - 40px);
+  background-color: hotpink;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: all 200ms linear;
+}
+
+.js-move {
+  right: 2em;
+}
+
+.panel {  
+  width: 250px;
+  top: 50%;
+  background-color: yellow;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: darkgoldenrod;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
+}
