@@ -155,3 +155,16 @@ div {
       right: 9em;
     }
 }
+
+.list {
+  bottom: 1em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 250px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  overflow-y: auto;
+}
